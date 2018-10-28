@@ -31,7 +31,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // initial state is non-recording
+        // the app's initial state is non-recording
         configureUI(isRecording: false)
     }
     

@@ -32,6 +32,7 @@ class PlaySoundsViewController: UIViewController {
     }
     
     @IBAction func playSoundForButton(_ sender: UIButton) {
+        // apply sound effect according to the tag of the button that is pressed
         switch(ButtonType(rawValue: sender.tag)!) {
         case .slow:
             playSound(rate: 0.5)
