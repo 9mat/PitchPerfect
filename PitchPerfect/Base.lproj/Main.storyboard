@@ -124,7 +124,7 @@
                                                     <action selector="playSoundForButton:" destination="CbD-J6-R9D" eventType="touchUpInside" id="9Se-vf-SgE"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cy7-Rs-Ei5" userLabel="Low Pitch Button">
+                                            <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cy7-Rs-Ei5" userLabel="Low Pitch Button">
                                                 <rect key="frame" x="268" y="0.0" width="268" height="67"/>
                                                 <state key="normal" image="LowPitch"/>
                                                 <userDefinedRuntimeAttributes>
